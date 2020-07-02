@@ -2,8 +2,7 @@
 - 현재 참조하고 있는 클래스를 확인할 수 있는 메소드
 - A 라는 클래스를 참조하고 있다면 class A 라는 값이 출력된다.
 
-<pre>
-    <code>
+```
     public class Test01 {
         public static void main(String[] args) {
         
@@ -13,8 +12,7 @@
             System.out.println("getName:::" + list.getClass().getName());
         }
       }    
-    </code>
-</pre>
+```
 
 - getName()과 같이 사용할 수 있다.
 - 실행 결과<br>

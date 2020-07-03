@@ -22,7 +22,7 @@
     2. 기본적으로 반드시 해당 파라미터가 전송되어야 한다.
     3. 반드시 필요한 데이터인가?를 나타내는 required의 값이 default로 true로 되어 있어 해당 파라미터가 전송되지 않으면 400 error를 유발
     4. 반드시 필요한 변수가 아니라면 required값을 false로 설정 할 수 있고, default로 받을 값도 설정할 수 있다.
-    5. @RequestParam(value = "파라미터명", required="boolean", default="값")의 형식
+    5. @RequestParam(value = "파라미터명", required="boolean", defaultValue="값")의 형식
 ***
 -  예제 코드<br>
 
@@ -96,3 +96,6 @@ public class StudentController {
     }
 }
 ```
+
+추가 정리해보기 : Controller에서 다양한 타입으로 request 받기
+https://sjh836.tistory.com/143

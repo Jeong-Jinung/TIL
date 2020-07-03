@@ -1,4 +1,4 @@
-><h3>@Requestparam, @Requestbody, @modelAttribute 정리</h3>
+><h3>@RequestBody / @ModelAttribute / @RequestParam 정리</h3>
 >
 - @RequestBody
     1. 클라이언트가 전송하는 Http 요청의 Body내용을 Java Object로 변환시켜주는 역할

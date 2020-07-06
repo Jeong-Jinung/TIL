@@ -9,7 +9,6 @@
 - 어느 엘리먼트에나 <code>data-</code>로 시작하는 속성은 무엇이든 사용 가능
 - 화면에 안 보이게 글이나 추가정보를 엘리먼트에 담아 노을 수 있다.
 <br>
-
 ***
 
 [HTML 문법]
@@ -22,6 +21,8 @@
 ...
 </article>
 ```
+<br>
+
 ***
 [JavaScript에서 접급하기]
 - HTML 이름과 함께 getAttribute() 사용
@@ -36,6 +37,8 @@ article.dataset.columns // "3"
 article.dataset.indexNumber // "12314"
 article.dataset.parent // "cars"
 ```
+<br>
+
 ***
 [CSS에서 접근하기]
 - <code>data</code>속성은 순 HTML 속성이기 때문에 CSS에서도 접근 가능
@@ -52,7 +55,9 @@ article[data-columns='3'] {
 article[data-columns='4'] {
   width: 600px;
 }
-``` 
+```
+<br>
+ 
 ***
 - 데이터 속성들은 게임 점수와 같이 계속 변하는 정보도 저장 할 수 있다
 - IE10 이하를 지원하기 위해서는 getAttribute()를 통해 데이터 속성에 접근
